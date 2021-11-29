@@ -1,5 +1,4 @@
 
-
 function [x] = gausskij3b (A,b)
     n = size (A,"c");
     for k = 1:n-1
