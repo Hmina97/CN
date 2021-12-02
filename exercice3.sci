@@ -13,7 +13,7 @@ function [x] = gausskij3b (A,b)
     x = usolve (A,b);
 endfunction
 
-tabsize = [10;20;30;40;50;60;70;80;90;100];
+tabsize = [5;10;15;20;25;30;35;40;45;50];
 G_errarr = zeros(size(tabsize,"r"));
 G_errav = zeros(size(tabsize,"r"));
 
