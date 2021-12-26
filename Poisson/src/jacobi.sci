@@ -14,7 +14,7 @@ function [x, count, residual, relres] = jacobi(A, b, e, max_count)
 	 r = (b - A * x);
 	 residual = norm(r) / normb;
 
-	 // Residula vector
+	 // Residula vector 
 	 relres = zeros(max_count, 1);
 
 	 //
