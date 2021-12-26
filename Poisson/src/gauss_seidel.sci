@@ -18,7 +18,7 @@ function [x, count, residual, relres] = gauss_seidel(A, b, e, max_count)
 	 // (D - E)-1
 	 DE = inv(D - E);
 
-	 x = zeros(n, 1);
+	 x = zeros(n, 1); 
 
 	 normb = norm(b);
 	 
