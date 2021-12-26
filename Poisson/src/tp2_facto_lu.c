@@ -9,7 +9,7 @@ int main()
 {
   // Constant
   int lab = 3;
-  int la = 10;
+  int la = 10; 
   int kv = 0;
   double T0 = -5.0;
   double T1 = 5.0;
